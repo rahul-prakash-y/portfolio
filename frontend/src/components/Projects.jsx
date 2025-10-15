@@ -60,7 +60,7 @@ const ProjectCard = ({ project, index }) => {
           )}
         </div>
         
-        <p className="text-gray-400 mb-4 line-clamp-2">
+        <p className="text-gray-400 mb-4">
           {project.description}
         </p>
         

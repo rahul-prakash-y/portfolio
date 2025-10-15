@@ -1,18 +1,17 @@
 // Mock data for MERN Stack Developer Portfolio
 
 export const developerInfo = {
-  name: "Alex Rivera",
+  name: "Rahul Prakash",
   title: "Full Stack MERN Developer",
   tagline: "Building scalable web applications with MongoDB, Express, React & Node.js",
   bio: "Passionate full-stack developer with 5+ years of experience crafting modern web applications. Specializing in the MERN stack, I transform complex problems into elegant, scalable solutions. I thrive on creating seamless user experiences backed by robust server architectures.",
-  email: "alex.rivera@example.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+  email: "rahulraiman03@gmail.com",
+  phone: "+91 9361212442",
+  location: "Erode Tamil Nadu, India",
   resume: "/resume.pdf",
   social: {
-    github: "https://github.com/alexrivera",
-    linkedin: "https://linkedin.com/in/alexrivera",
-    twitter: "https://twitter.com/alexrivera"
+    github: "https://github.com/rahul-prakash-y",
+    linkedin: "https://www.linkedin.com/in/rahul-prakash-61649328b/",
   }
 };
 
@@ -91,6 +90,7 @@ export const skills = [
     technologies: [
       { name: "React", level: 95, icon: "component" },
       { name: "Redux", level: 88, icon: "workflow" },
+      { name: "Zustand", level: 88, icon: "workflow" },
       { name: "Next.js", level: 85, icon: "layers" },
       { name: "TypeScript", level: 90, icon: "code" },
       { name: "Tailwind CSS", level: 92, icon: "palette" },
@@ -103,8 +103,6 @@ export const skills = [
       { name: "Node.js", level: 93, icon: "server" },
       { name: "Express", level: 95, icon: "route" },
       { name: "MongoDB", level: 90, icon: "database" },
-      { name: "PostgreSQL", level: 82, icon: "hard-drive" },
-      { name: "GraphQL", level: 80, icon: "git-branch" },
       { name: "REST APIs", level: 96, icon: "api" }
     ]
   },
@@ -112,11 +110,6 @@ export const skills = [
     category: "DevOps & Tools",
     technologies: [
       { name: "Git", level: 94, icon: "git-commit" },
-      { name: "Docker", level: 85, icon: "package" },
-      { name: "AWS", level: 78, icon: "cloud" },
-      { name: "CI/CD", level: 82, icon: "refresh-cw" },
-      { name: "Jest", level: 88, icon: "check-circle" },
-      { name: "Webpack", level: 80, icon: "box" }
     ]
   }
 ];
@@ -124,27 +117,19 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    company: "TechCorp Solutions",
-    position: "Senior Full Stack Developer",
-    period: "2022 - Present",
-    description: "Leading development of enterprise-grade web applications. Architected microservices infrastructure serving 1M+ users. Mentoring junior developers and conducting code reviews.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"]
+    company: "Crayon'd Digital Pvt Ltd",
+    position: "Full Stack Developer Intern",
+    period: "Sept 2024 - Apr 2025",
+    description: "Working on developing and maintaining web applications using the MERN stack. Collaborating with designers and backend developers to create seamless user experiences and robust server-side logic.",
+    technologies: ["React", "Node.js", "MongoDB"]
   },
   {
     id: 2,
-    company: "StartupHub Inc",
-    position: "MERN Stack Developer",
-    period: "2020 - 2022",
-    description: "Developed multiple MVPs for startup clients. Built real-time features using WebSockets. Optimized database queries reducing response time by 60%.",
-    technologies: ["React", "Express", "MongoDB", "Socket.io", "Redux"]
-  },
-  {
-    id: 3,
-    company: "Digital Agency Pro",
-    position: "Frontend Developer",
-    period: "2019 - 2020",
-    description: "Created responsive web applications for various clients. Implemented modern UI/UX designs. Collaborated with design teams to deliver pixel-perfect interfaces.",
-    technologies: ["React", "JavaScript", "CSS3", "REST APIs"]
+    company:"Crayon'd Digital Pvt Ltd",
+    position: "Full Stack Developer Intern",
+    period: "Apr 2025 - Present",
+    description: "Developed and maintained full-stack web applications using the MERN stack. Collaborated with cross-functional teams to define project requirements and deliver high-quality solutions on time.",
+    technologies: ["React", "Node.js", "Express", "MongoDB"]
   }
 ];
 

@@ -71,17 +71,17 @@ const Contact = ({ developerInfo }) => {
             <div className="bg-gray-900 p-8 rounded-2xl border border-gray-800">
               <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
               
-              <div className="space-y-6 mb-8">
+              <div className="flex flex-col gap-y-6 mb-8">
                 {contactInfo.map((item, index) => {
                   const Icon = item.icon;
                   const content = (
-                    <div className="flex items-center gap-4 p-4 bg-gray-800 rounded-xl hover:bg-gray-750 transition-colors duration-200">
+                    <div className="flex items-center gap-4 p-4 bg-gray-800 rounded-xl hover:bg-gray-700 transition-colors duration-200">
                       <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0">
                         <Icon className="w-6 h-6 text-white" />
                       </div>
                       <div>
                         <p className="text-gray-400 text-sm">{item.label}</p>
-                        <p className="text-white font-medium">{item.value}</p>
+                        <p className="text-white font-medium break-all">{item.value}</p>
                       </div>
                     </div>
                   );
